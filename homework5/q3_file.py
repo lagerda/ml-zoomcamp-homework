@@ -1,9 +1,6 @@
 import pickle
 import os
 
-os.chdir("C:/Users/adako/Desktop/python-projects/poetry-projects/mp-zoomcamp/homework_5")  
-
-
 input_file = f'pipeline_v1.bin'
 
 
@@ -17,4 +14,5 @@ X = dv.transform([check])
 y_pred = model.predict_proba(X)[0, 1]
 
 print(y_pred)
+
 
